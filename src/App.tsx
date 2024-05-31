@@ -1,26 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Ejercicio1 } from './typescript/Ejercicio1';
+import { Ejercicio2 } from './typescript/Ejercicio2';
+import { Ejercicio3 } from './typescript/Ejercicio3';
+import { Ejercicio4 } from './typescript/Ejercicio4';
+import { Ejercicio5 } from './typescript/Ejercicio5';
+import { Ejercicio6 } from './typescript/Ejercicio6';
+import { Ejercicio7 } from './typescript/Ejercicio7';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='mt-2'>
+      <h1>Introduccion TS - React</h1>
+      <hr/>
+      {/* <Ejercicio1/> */}
+      {/* <Ejercicio2/> */}
+      {/* <Ejercicio3/> */}
+      {/* <Ejercicio4/> */}
+      {/* <Ejercicio5/> */}
+      {/* <Ejercicio6/> */}
+      <Ejercicio7/>
     </div>
-  );
+  )
 }
 
 export default App;
